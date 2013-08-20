@@ -75,15 +75,6 @@ grails.project.dependency.resolution = {
         compile('javax.ws.rs:jsr311-api:1.1.1') {
             excludes 'junit'
         }
-
-        // until RequestStreamAdapter is re-implemented ...
-        compile('org.springframework:spring-test:3.1.2.RELEASE') {
-            excludes 'activation', 'el-api', 'javax.inject', 'persistence-api', 'portlet-api',
-                     'servlet-api', 'jsp-api', 'geronimo-jta_1.1_spec', 'standard', 'aspectjweaver',
-                     'hibernate-core', 'hibernate-cglib-repack', 'hsqldb', 'junit', 'spring-beans',
-                     'spring-context', 'spring-core', 'spring-jdbc', 'spring-orm', 'spring-tx',
-                     'spring-web', 'spring-webmvc-portlet', 'spring-webmvc', 'testng'
-        }
     }
 
     plugins {
