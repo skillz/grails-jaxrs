@@ -911,43 +911,35 @@ public class MockHttpServletRequest implements HttpServletRequest {
 		this.authType = null;
 	}
 
-	@Override
 	public AsyncContext getAsyncContext() {
 		throw new RuntimeException("servlet 3.0 api method servlet 3.0 api method not implemented yet");
 	}
 
-	@Override
 	public DispatcherType getDispatcherType() {
 		throw new RuntimeException("servlet 3.0 api method not implemented yet");
 	}
 
-	@Override
 	public boolean isAsyncStarted() {
 		throw new RuntimeException("servlet 3.0 api method not implemented yet");
 	}
 
-	@Override
 	public boolean isAsyncSupported() {
 		throw new RuntimeException("servlet 3.0 api method not implemented yet");
 	}
 
-	@Override
 	public AsyncContext startAsync() {
 		throw new RuntimeException("servlet 3.0 api method not implemented yet");
 	}
 
-	@Override
 	public AsyncContext startAsync(ServletRequest arg0, ServletResponse arg1) {
 		throw new RuntimeException("servlet 3.0 api method not implemented yet");
 	}
 
-	@Override
 	public Part getPart(String arg0) throws IOException, IllegalStateException,
 			ServletException {
 		throw new RuntimeException("servlet 3.0 api method not implemented yet");
 	}
 
-	@Override
 	public Collection<Part> getParts() throws IOException,
 			IllegalStateException, ServletException {
 		throw new RuntimeException("servlet 3.0 api method not implemented yet");
